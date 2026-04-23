@@ -11,10 +11,16 @@
   "engines": {
     "vscode": "^1.116.0"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/YugankDh/faahxtension.git"
+  },
   "categories": [
     "Other"
   ],
-  "activationEvents": ["onStartupFinished"],
+  "activationEvents": [
+    "onStartupFinished"
+  ],
   "files": [
     "extension.js",
     "sounds/"
@@ -22,11 +28,11 @@
   "main": "./extension.js",
   "contributes": {
     "commands": [
-    {
-      "command": "extension.select_sound_effect",
-      "title": "Select Sound Effect"
-    }
-  ]
+      {
+        "command": "extension.select_sound_effect",
+        "title": "Select Sound Effect"
+      }
+    ]
   },
   "scripts": {
     "lint": "eslint .",
@@ -34,12 +40,15 @@
     "test": "vscode-test"
   },
   "devDependencies": {
-    "@types/vscode": "^1.116.0",
     "@types/mocha": "^10.0.10",
     "@types/node": "22.x",
-    "eslint": "^9.39.3",
+    "@types/vscode": "^1.116.0",
     "@vscode/test-cli": "^0.0.12",
-    "@vscode/test-electron": "^2.5.2"
+    "@vscode/test-electron": "^2.5.2",
+    "eslint": "^9.39.3"
   },
-  "icon": "icon.png"
+  "icon": "icon.png",
+  "dependencies": {
+    "@vscode/vsce": "^3.9.1"
+  }
 }
