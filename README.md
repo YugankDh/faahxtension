@@ -20,10 +20,6 @@ code --install-extension faahxtension-0.0.1.vsix
 
 Or: Extensions panel → `...` → **Install from VSIX** → pick the file.
 
-### Marketplace
-
-Search `faahxtension` in the VS Code Extensions panel.
-
 ---
 
 ## Usage
