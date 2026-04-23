@@ -3,6 +3,7 @@
   "displayName": "faahxtension",
   "description": "Plays a sound effect when your terminal throws an error. Because errors deserve drama.",
   "version": "0.0.1",
+  "publisher": "YugankDhanderiya",
   "author": {
     "name": "Yugank Dhanderiya",
     "email": "yugankdhanderiya@gmail.com"
