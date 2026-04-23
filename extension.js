@@ -52,7 +52,7 @@ async function activate(context) {
 
 	let pick_sound = vscode.commands.registerCommand('extension.select_sound_effect', async () => {
 
-		const options = ['mkb-aag', 'faaaah', 'chicken-on-tree', 'kyacheda', 'anime-ahh', 'auughhh']
+		const options = ['mkb-aag', 'faaaah', 'chicken-on-tree', 'acp-pradyuman', 'anime-ahh', 'auughhh']
 
 		const picked = await vscode.window.showQuickPick(options, {
 			placeHolder: 'Select an option from the list',

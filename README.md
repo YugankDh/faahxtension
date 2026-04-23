@@ -38,7 +38,7 @@ If a terminal was already open before install, you'll get a prompt to restart it
 - faaaah
 - mkb aag
 - chicken on tree
-- kya cheda...
+- acp-pradyuman
 - anime ahh
 - auughhh
 
