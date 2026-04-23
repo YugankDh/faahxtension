@@ -1,0 +1,44 @@
+{
+  "name": "faahxtension",
+  "displayName": "faahxtension",
+  "description": "Plays a sound effect when your terminal throws an error. Because errors deserve drama.",
+  "version": "0.0.1",
+  "author": {
+    "name": "Yugank Dhanderiya",
+    "email": "yugankdhanderiya@gmail.com"
+  },
+  "engines": {
+    "vscode": "^1.116.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": ["onStartupFinished"],
+  "files": [
+    "extension.js",
+    "sounds/"
+  ],
+  "main": "./extension.js",
+  "contributes": {
+    "commands": [
+    {
+      "command": "extension.select_sound_effect",
+      "title": "Select Sound Effect"
+    }
+  ]
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "pretest": "npm run lint",
+    "test": "vscode-test"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.116.0",
+    "@types/mocha": "^10.0.10",
+    "@types/node": "22.x",
+    "eslint": "^9.39.3",
+    "@vscode/test-cli": "^0.0.12",
+    "@vscode/test-electron": "^2.5.2"
+  },
+  "icon": "icon.png"
+}
